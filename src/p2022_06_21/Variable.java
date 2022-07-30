@@ -32,8 +32,8 @@ public class Variable {
 		System.out.println("ft1=" + ft1);
 		System.out.println("ft2=" + ft2);
 		System.out.println("d=" +d);
-		System.out.printf("%.1f\n", d);	// %.뒤로 1자리수 표기 \n 다음 새로운(new)줄
-		System.out.printf("%.2f\n", d);	// %.뒤로 2자리수 표기 \n 다음 새로운(new)줄
+//		System.out.printf("%.1f\n", d);	// %.뒤로 1자리수 표기 \n 다음 새로운(new)줄
+//		System.out.printf("%.2f\n", d);	// %.뒤로 2자리수 표기 \n 다음 새로운(new)줄
 		
 		//3. 문자형 변수
 		char c1 = 'A';
@@ -78,10 +78,10 @@ public class Variable {
 				
 //				List list = new List();				// 오류발생
 				List list = new ArrayList();		// 업캐스팅
-				list.add(30);
-				list.add(3.14);
-				list.add('j');
-				list.add(true);
+//				list.add(30);
+//				list.add(3.14);
+//				list.add('j');
+//				list.add(true);
 				list.add("자바");
 				for(int k=0; k<list.size(); k++) {
 					System.out.print(list.get(k)+"\t");
