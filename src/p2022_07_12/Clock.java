@@ -24,7 +24,6 @@ public class Clock extends JFrame implements Runnable{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 
-	@Override
 	public void run() {
 		// TODO Auto-generated method stub
 		
