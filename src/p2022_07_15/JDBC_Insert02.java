@@ -11,8 +11,8 @@ import java.sql.Timestamp;
 class  JDBC_Insert02{
 public static void main(String[] args) {
 
-  String driver = "oracle.jdbc.driver.OracleDriver";
-  String url = "jdbc:oracle:thin:@52.79.169.74:1521:xe";   
+	   String driver = "oracle.jdbc.driver.OracleDriver"; 
+	   String url = "jdbc:oracle:thin:@3.39.192.100:1521:xe";  
 
   Connection con = null;
   PreparedStatement pstmt =  null;
